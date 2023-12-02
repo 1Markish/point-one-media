@@ -1,2 +1,11 @@
-console.log("Hello world")
-console.log("Hello world")
+import "../css/HomePage.css"
+
+function HomePage(){
+    return(
+        <>
+        <div></div>
+        </>
+    )
+}
+
+export default HomePage;
