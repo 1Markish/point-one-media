@@ -6,7 +6,7 @@ import MobileNavbar from "./MobileNavbar";
 
 function Navbar(){
 
-    const [isMenuOpen, setIsMenuOpen] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -31,7 +31,7 @@ function Navbar(){
 
                         <button className="hidden md:block h-10 bg-primary text-white text-sm px-6 rounded hover:bg-blue-200 hover:text-primary ">CONTACT US</button>
                         <button onClick={() => {setIsMenuOpen(true)}} className="w-11 h-11 bg-blue-100 text-2xl text-primary flex items-center justify-center rounded md:hidden z-50">
-                            { isMenuOpen ? <RiCloseFill/> : <RiMenu4Line/>}
+                            { isMenuOpen ?  <RiCloseFill/> :  <RiMenu4Line/>}
                         </button>
                     </div>
                 </nav>

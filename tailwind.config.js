@@ -3,7 +3,10 @@ module.exports = {
   content: [
     "./src/components/Navbar.jsx",
     "./src/components/MobileNavbar.jsx",
-    "./src/components/Home.jsx"
+    "./src/components/Home.jsx",
+    "./src/components/Stats.jsx",
+    "./src/components/Cards/StatsCard.jsx",
+    "./src/components/OurServices.jsx"
   ],
   theme: {
     fontFamily:{
@@ -11,10 +14,13 @@ module.exports = {
     },
 
     extend: {
-      colors:{
+      colors:{ 
         background:"#F7FAFF",
         primary:"#13B9AB",
+        secondary:"#D6FFFC",
         green:"#00FFE9",
+        lightGreen:"#00FFE9",
+        darkGreen:"#00B4A4",
         overlayBg:"rgba(0,0,0,0.3)"
       }
     },

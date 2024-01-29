@@ -24,7 +24,7 @@ function MobileNavbar({setIsMenuOpen}){
                     </ul>
                     <button className="md:block h-10 bg-primary text-white text-sm px-6 rounded hover:bg-blue-200 hover:text-primary ">CONTACT US</button>
                 </div>
-                <div onClick={() => {setIsMenuOpen(false)}} className="w-screen h-screen bg-overlayBg fixed top-0 -z-20"/>
+                <div onClick={() => {setIsMenuOpen(false)}} className="w-screen h-screen bg-overlayBg fixed top-0 -z-10"/>
             </div>
         </>
     )
