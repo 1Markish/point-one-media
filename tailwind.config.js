@@ -6,7 +6,10 @@ module.exports = {
     "./src/components/Home.jsx",
     "./src/components/Stats.jsx",
     "./src/components/Cards/StatsCard.jsx",
-    "./src/components/OurServices.jsx"
+    "./src/components/Cards/ServiceInfoCard.jsx",
+    "./src/components/OurServices.jsx",
+    "./src/components/OurWork.jsx",
+    "./src/components/Testimonials.jsx"
   ],
   theme: {
     fontFamily:{
