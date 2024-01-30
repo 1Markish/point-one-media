@@ -7,6 +7,14 @@ import ServiceImg1 from "../images/graphic.jpeg";
 import ServiceImg2 from "../images/printing.jpeg";
 import ServiceImg3 from "../images/branding.jpeg";
 
+import Profile1 from "../images/Profile1.jpeg";
+import Profile2 from "../images/Profile2.jpeg";
+import Profile3 from "../images/Profile3.jpeg";
+import Profile4 from "../images/Profile4.jpeg";
+import Profile5 from "../images/Profile5.jpeg";
+import Profile6 from "../images/Profile6.jpeg";
+import Profile7 from "../images/Profile7.jpeg";
+
 
 
 
@@ -22,4 +30,16 @@ export const SERVICES = [
     { imgUrl: ServiceImg1, title: "Graphic Design", description:"Elevate your brand with our expert graphic design services. Our skilled designers seamlessly merge creativity and expertise to craft visually stunning designs that embody your unique vision. From logos to marketing materials, we bring your brand to life, ensuring a lasting impact and a distinct presence in the market."},
     { imgUrl: ServiceImg2, title: "Printing", description:"Revitalize your brand through our premier printing services. We employ cutting-edge technology to deliver high-quality prints for your marketing materials. From business cards to banners, our meticulous attention to detail ensures your brand shines, leaving a lasting impression on your audience."},
     { imgUrl: ServiceImg3, title: "Branding", description:"Revamp your brand with our comprehensive branding solutions. From captivating logos to cohesive visual identities, our expert team ensures your brand communicates effectively. Elevate your business presence with strategic branding that resonates, leaving a memorable impression on your audience and fostering lasting connections."},
+]
+
+export const TESTIMONIALS = [
+    {imgUrl: Profile1, name:"Morgan Freeman", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: Profile2, name:"Taylor Swift", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: Profile3, name:"Sylvester Stallone", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: Profile4, name:"Dwayne Johnson", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: Profile5, name:"Marshall Bruce", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: Profile6, name:"Rowan Atkinson", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: Profile7, name:"Tommy Shelby", review: "world class", description:"A state of the art service deliverence"},
+
+    
 ]

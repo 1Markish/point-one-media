@@ -9,7 +9,10 @@ module.exports = {
     "./src/components/Cards/ServiceInfoCard.jsx",
     "./src/components/OurServices.jsx",
     "./src/components/OurWork.jsx",
-    "./src/components/Testimonials.jsx"
+    "./src/components/Testimonials.jsx",
+    "./src/components/Cards/TestimonialCard.jsx",
+    "./src/components/Pagination/Pagination.jsx"
+    
   ],
   theme: {
     fontFamily:{
