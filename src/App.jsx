@@ -5,7 +5,8 @@ import Stats from "./components/Stats";
 import OurServices from "./components/OurServices";
 import OurWork from "./components/OurWork";
 import Testimonials from "./components/Testimonials";
-import Pagination from "./components/Pagination/Pagination";
+import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     <OurServices/>
     <OurWork/>
     <Testimonials/>
-    <Pagination/>
+    <CallToAction/>
+    <Footer/>
   </>
   );
 }

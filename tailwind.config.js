@@ -11,7 +11,9 @@ module.exports = {
     "./src/components/OurWork.jsx",
     "./src/components/Testimonials.jsx",
     "./src/components/Cards/TestimonialCard.jsx",
-    "./src/components/Pagination/Pagination.jsx"
+    "./src/components/Pagination/Pagination.jsx",
+    "./src/components/CallToAction.jsx",
+    "./src/components/Footer.jsx"
     
   ],
   theme: {
@@ -27,7 +29,8 @@ module.exports = {
         green:"#00FFE9",
         lightGreen:"#00FFE9",
         darkGreen:"#00B4A4",
-        overlayBg:"rgba(0,0,0,0.3)"
+        overlayBg:"rgba(0,0,0,0.3)",
+        grey: "#403D3D"
       }
     },
   },
