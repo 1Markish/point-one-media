@@ -3,9 +3,9 @@ import icon2 from "../images/icon2.svg";
 import icon3 from "../images/icon3.svg";
 import icon4 from "../images/icon4.svg";
 
-import ServiceImg1 from "../images/graphic.jpeg";
+import ServiceImg1 from "../images/Design.jpg";
 import ServiceImg2 from "../images/printing.jpeg";
-import ServiceImg3 from "../images/branding.jpeg";
+import ServiceImg3 from "../images/Branding.jpeg";
 
 import Profile1 from "../images/Profile1.jpeg";
 import Profile2 from "../images/Profile2.jpeg";
