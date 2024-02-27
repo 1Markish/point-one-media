@@ -104,17 +104,17 @@ function CallToAction() {
 
             <div className="sm:col-span-2 sm:col-start-1">
               <label
-                for="city"
+                for="size"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                City
+                Size 
               </label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="city"
-                  id="city"
-                  autocomplete="address-level2"
+                  name="size"
+                  id="size"
+                  autocomplete="size"
                   className="px-2 block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-md ring-1 ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lightGreen-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -122,17 +122,17 @@ function CallToAction() {
 
             <div className="sm:col-span-2">
               <label
-                for="region"
+                for="pages"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                State / Province
+                No. of pages
               </label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="region"
-                  id="region"
-                  autocomplete="address-level1"
+                  name="pages"
+                  id="pages"
+                  autocomplete="pages"
                   className="px-2 block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-md ring-1 ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lightGreen-600 sm:text-sm sm:leading-6"
                 />
               </div>
@@ -156,7 +156,7 @@ function CallToAction() {
               </div>
             </div>
 
-            <div className="sm:col-span-4">
+            <div className="sm:col-span-6">
               <label
                 for="company-name"
                 className="block text-sm font-medium leading-6 text-gray-900"
@@ -171,6 +171,28 @@ function CallToAction() {
                   autocomplete="family-name"
                   className="px-2 block w-full h-20 rounded-sm border-0 py-0 text-gray-900 shadow-md ring-1 ring-gray-200 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lightGreen-600 sm:text-sm sm:leading-6"
                 />
+              </div>
+            </div>
+
+            <div className="col-span-full">
+              <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-gray-900">
+                Upload artwork
+              </label>
+              <div className="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
+                <div className="text-center">
+                  {/* <PhotoIcon className="mx-auto h-12 w-12 text-gray-300" aria-hidden="true" /> */}
+                  <div className="mt-4 flex text-sm leading-6 text-gray-600">
+                    <label
+                      htmlFor="file-upload"
+                      className="relative cursor-pointer rounded-md font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500"
+                    >
+                      <span>Upload a file</span>
+                      <input id="file-upload" name="file-upload" type="file" className="sr-only" />
+                    </label>
+                    <p className="pl-1">or drag and drop</p>
+                  </div>
+                  <p className="text-xs leading-5 text-gray-600">PDF,PNG or JPEG</p>
+                </div>
               </div>
             </div>
           </div>
