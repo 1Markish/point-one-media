@@ -13,27 +13,25 @@ module.exports = {
     "./src/components/Cards/TestimonialCard.jsx",
     "./src/components/Pagination/Pagination.jsx",
     "./src/components/CallToAction.jsx",
-    "./src/components/Footer.jsx"
-    
+    "./src/components/Footer.jsx",
   ],
   theme: {
-    fontFamily:{
-      display:["K2D", "Lato"]
+    fontFamily: {
+      display: ["K2D", "Lato"],
     },
 
     extend: {
-      colors:{ 
-        background:"#F7FAFF",
-        primary:"#13B9AB",
-        secondary:"#D6FFFC",
-        green:"#00FFE9",
-        lightGreen:"#00FFE9",
-        darkGreen:"#00B4A4",
-        overlayBg:"rgba(0,0,0,0.3)",
-        grey: "#403D3D"
-      }
+      colors: {
+        background: "#F7FAFF",
+        primary: "#13B9AB",
+        secondary: "#EFFFFE",
+        green: "#00FFE9",
+        lightGreen: "#00FFE9",
+        darkGreen: "#007B71",
+        overlayBg: "rgba(0,0,0,0.3)",
+        grey: "#403D3D",
+      },
     },
   },
   plugins: [],
-}
-
+};
