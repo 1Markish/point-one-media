@@ -49,7 +49,7 @@ function Testimonials(){
 
     return (
         <>
-            <section id="testimonials" className="max-w-[1200px] py-16 mx-auto">
+            <section id="testimonials" className="max-w-[1200px] py-16 mx-auto px-16">
                 <h5 className="text-2xl font-semibold text-darkGreen text-center mb-16">Testimonials</h5>
 
                 <div className="relative mb-7 px-5 md:px-10">

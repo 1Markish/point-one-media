@@ -11,7 +11,7 @@ import GalleryImg6 from "../images/gallery-img6.jpeg";
 function OurWork(){
     return (
         <>
-            <section id="our-work" className="max-w-[1200px] pt-8 mx-auto">
+            <section id="our-work" className="max-w-[1200px] pt-8 mx-auto px-16">
                 <h5 className="text-2xl font-semibold text-darkGreen text-center mb-16">Our Work</h5>
 
                 <div className="grid grid-cols-1 grid-rows-6 gap-2 md:grid-cols-4 md:grid-rows-2">

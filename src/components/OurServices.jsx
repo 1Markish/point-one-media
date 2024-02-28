@@ -5,7 +5,7 @@ import ServiceInfoCard from "./Cards/ServiceInfoCard";
 function OurServices(){
     return (
         <>
-            <section id="services" className="max-w-[1200px] py-16 mx-auto">
+            <section id="services" className="max-w-[1200px] py-16 px-16 mx-auto">
                 <h5 className="text-5xl font-semibold text-darkGreen text-center mb-10">Our Services</h5>
 
                 <div className="bg-white lg:shadow-slate-200/50 " >

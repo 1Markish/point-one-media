@@ -18,10 +18,10 @@ function Navbar(){
         <>
           {isMenuOpen && <MobileNavbar isOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>}
 
-            <div className="bg-background sticky top-0 z-10">
+            <div className="bg-background sticky top-0 z-10 px-16">
                 <nav className="max-w-screen-xl mx-auto py-4 px-6">
                     <div className="flex items-center justify-between">
-                        <img src={logo} alt="Point-One-Media logo" className="h-11 w-auto object-contain"/>
+                        <img src={logo} alt="Point-One-Media logo" className="h-12 w-auto object-contain"/>
 
                         <ul className="hidden md:flex md:gap-14">
                             <li>
