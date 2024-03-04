@@ -10,11 +10,17 @@ import ServiceImg3 from "../images/Branding.jpeg";
 import Profile1 from "../images/Profile1.jpeg";
 import Profile2 from "../images/Profile2.jpeg";
 import Profile3 from "../images/Profile3.jpeg";
-import Profile4 from "../images/Profile4.jpeg";
-import Profile5 from "../images/Profile5.jpeg";
-import Profile6 from "../images/Profile6.jpeg";
-import Profile7 from "../images/Profile7.jpeg";
+// import Profile4 from "../images/Profile4.jpeg";
+// import Profile5 from "../images/Profile5.jpeg";
+// import Profile6 from "../images/Profile6.jpeg";
+// import Profile7 from "../images/Profile7.jpeg";
 
+import GalleryImg1 from "../images/gallery-img1.jpeg";
+import GalleryImg2 from "../images/gallery-img2.jpeg";
+import GalleryImg3 from "../images/gallery-img3.jpeg";
+import GalleryImg4 from "../images/gallery-img4.jpeg";
+import GalleryImg5 from "../images/gallery-img5.jpeg";
+import GalleryImg6 from "../images/gallery-img6.jpeg";
 
 
 
@@ -36,10 +42,15 @@ export const TESTIMONIALS = [
     {imgUrl: Profile1, name:"Morgan Freeman", review: "world class", description:"A state of the art service deliverence"},
     {imgUrl: Profile2, name:"Taylor Swift", review: "world class", description:"A state of the art service deliverence"},
     {imgUrl: Profile3, name:"Sylvester Stallone", review: "world class", description:"A state of the art service deliverence"},
-    {imgUrl: Profile4, name:"Dwayne Johnson", review: "world class", description:"A state of the art service deliverence"},
-    {imgUrl: Profile5, name:"Marshall Bruce", review: "world class", description:"A state of the art service deliverence"},
-    {imgUrl: Profile6, name:"Rowan Atkinson", review: "world class", description:"A state of the art service deliverence"},
-    {imgUrl: Profile7, name:"Tommy Shelby", review: "world class", description:"A state of the art service deliverence"},
 
+]
+
+export const SAMPLES = [
+    {imgUrl: GalleryImg1, name:"Morgan Freeman", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: GalleryImg2, name:"Taylor Swift", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: GalleryImg3, name:"Sylvester Stallone", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: GalleryImg4, name:"Morgan Freeman", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: GalleryImg5, name:"Taylor Swift", review: "world class", description:"A state of the art service deliverence"},
+    {imgUrl: GalleryImg6, name:"Sylvester Stallone", review: "world class", description:"A state of the art service deliverence"}
     
 ]

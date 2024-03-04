@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <div>
-        <div className="flex">
+        <div className="flex grid-col-4">
           <div className="bg-grey w-1/3 h-80 flex flex-col justify-center items-center text-secondary">
             <div>
               <img src={logo} alt="Point One Media Logo" />
@@ -28,17 +28,11 @@ function Footer() {
             </div>
           </div>
 
-          <div className="">
-            <iframe
-              className=""
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%20Dagia%20Plaza,%20Kweria%20Road%20Off,%20Ground%20Floor%20Kirinyaga%20Rd,%20Nairobi+(Point%20One%20Media)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            >
-              <a href="https://www.maps.ie/population/">
-                Population calculator map
-              </a>
+          <div className="grid-span-3">
+            <iframe src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=Point%20One%20Media,%20Kweria%20Road%20Off,%20Ground%20Floor%20Kirinyaga%20Rd,%20Nairobi+(Point%20One%20Media)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              <a href="https://www.gps.ie/">gps systems</a>
             </iframe>
           </div>
-          
         </div>
         <div className="h-10 bg-black flex justify-center items-center">
           <span className="text-xs text-white">

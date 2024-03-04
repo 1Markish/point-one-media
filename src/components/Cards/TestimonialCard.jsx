@@ -6,7 +6,7 @@ function TestimonialCard({name, imgUrl, review, description}){
         <>
             <div className="bg-white rounded-md p-5 border mx-2">
                 <div className="flex items-center gap-3 mb-4">
-                    <img src={imgUrl} alt={name} className="w-14 h-14 md:w-16 md:h-16 rounded-full" />
+                    <img src={imgUrl} alt={name} className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover" />
 
                     <div>
                         <p className="text-sm md:text-base mb-1">{name}</p>

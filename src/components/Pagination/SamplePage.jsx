@@ -1,7 +1,7 @@
 import React from "react";
 import { SAMPLES } from "../../utils/data";
 
-function Pagination({active}){
+function SamplePage({active}){
     return (
         <>
             <div className="flex items-center justify-center gap-3">
@@ -16,4 +16,4 @@ function Pagination({active}){
 }
 
 
-export default Pagination;
+export default SamplePage;

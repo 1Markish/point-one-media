@@ -7,6 +7,7 @@ import OurWork from "./components/OurWork";
 import Testimonials from "./components/Testimonials";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
+import Samples from "./components/Samples";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   <> 
     <Navbar/>
     <Home/>
+    <Samples/>
     <Stats/>
     <OurServices/>
     <OurWork/>
